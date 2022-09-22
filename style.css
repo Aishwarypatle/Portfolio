@@ -109,6 +109,10 @@ button:hover{
     height: 22rem;
 }
 .header-technologies{
-    margin: 8rem;
-    
+    margin: 2rem;   
+}
+#p-tech
+{
+    margin-bottom: 6rem;
+
 }
