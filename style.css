@@ -89,6 +89,7 @@ button{
     border-radius:2rem;
     color: white;
     font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
     font-size:1rem;
     letter-spacing:none;
 }
@@ -97,6 +98,7 @@ button:hover{
     height: 2.8rem;
     width: 8rem;
     background-color:var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
     border: 1px solid var(--first-color);
     border-radius:2rem;
     color: var(--first-color);
