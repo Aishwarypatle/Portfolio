@@ -17,6 +17,7 @@ nav{
 }
 .links{
     text-align: end;
+    color: var(--first-color);
 }
 a{
     color:var(--second-color);
@@ -123,5 +124,24 @@ button:hover{
 }
 .imgConnect
 {
+    height: 20rem;
+    width: 32rem;
+    margin-top:4rem;
     
+}
+#p-connect{
+    margin-left:2rem;
+    margin-right:2rem;
+    margin-top:2rem;
+}
+
+.footer 
+{
+    background-color:var(--primary-color);
+    height:20rem;
+   
+}
+.footer-name 
+{
+    color:var(--first-color);   
 }
