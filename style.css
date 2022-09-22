@@ -41,13 +41,15 @@ body{
     margin:0px;
     font-family: 'Montserrat', sans-serif;
 }
+.container{
+    display: grid;
+    justify-content: center;
+}
 .info{
+    display: grid;
+    justify-content: center;
 
 }
-
-
-
-
 
 img{
     height: 15rem;
