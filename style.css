@@ -21,15 +21,15 @@ nav{
     text-align: end;
 
 }
-a{
-    color:var(--second-color);
+.aLinks{
+    color:var(--first-color);
     font-family: 'Montserrat', sans-serif;
     padding: .8rem;
     font-weight: bolder;
     font-size: 1.2rem;
     text-decoration: none;
 }
-a:hover{
+.aLinks:hover{
 
     background-color:var(--first-color);
     font-family: 'Montserrat', sans-serif;
@@ -38,7 +38,7 @@ a:hover{
     font-size: 1.2rem;
     text-decoration: none;
     color: var(--primary-color);
-    border-radius: 1.2rem;
+    border-radius: .8rem;
 }
 body{
     margin:0px;
@@ -74,7 +74,9 @@ p{
     margin-top: 2rem;
     background-color: var(--first-color);
     text-align: center;
-    margin-left: none;
+    margin-left:8rem;
+    margin-right:8rem;
+    border-radius:2rem;
     height:22rem;
 }
 h2{
@@ -95,10 +97,14 @@ button{
     font-size:1rem;
     letter-spacing:none;
 }
+.button{
+    color:var(--first-color);
+    text-decoration:none;
+}
 button:hover{
     margin-top: 3rem;
     height: 2.8rem;
-    width: 8rem;
+    width: 9rem;
     background-color:var(--primary-color);
     font-family: 'Montserrat', sans-serif;
     border: 1px solid var(--first-color);
@@ -152,4 +158,10 @@ button:hover{
 .footer-name 
 {
     color:var(--first-color);   
+}
+h1{
+    font-weight: bolder;
+    margin-top:3rem;
+    margin-bottom:3rem;
+    font-size: 2rem;
 }
