@@ -53,7 +53,7 @@ body{
     justify-content: center;
 }
 
-.mypic{
+img{
     max-height: 20rem;
     max-width: 100%;
     margin-top:6rem;
@@ -141,13 +141,7 @@ button:hover{
 {
  padding-top: .2rem; 
 }
-.imgConnect
-{
-    height: 20rem;
-    width: 32rem;
-    margin-top:4rem;
-    
-}
+
 #p-connect{
     margin-left:2rem;
     margin-right:2rem;
