@@ -43,6 +43,9 @@ nav{
 body{
     margin:0px;
     font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    display:block;
+    justify-content:center;
 }
 
 .info{
@@ -51,10 +54,10 @@ body{
 }
 
 .mypic{
-    height: 20rem;
-    width: 32rem;
+    max-height: 20rem;
+    max-width: 100%;
     margin-top:6rem;
-    margin-left: 6rem;
+
 }
 .info{
     color: var(--primary-color);
@@ -74,10 +77,9 @@ p{
     margin-top: 2rem;
     background-color: var(--first-color);
     text-align: center;
-    margin-left:8rem;
-    margin-right:8rem;
+    max-width:60rem;
     border-radius:2rem;
-    height:22rem;
+    max-height:22rem;
 }
 h2{
     padding-top: 6rem;
@@ -86,8 +88,8 @@ h2{
 }
 button{
     margin-top: 3rem;
-    height: 2.8rem;
-    width: 10rem;
+    max-height: 2.8rem;
+    max-width: 10rem;
     background-color:var(--second-color);
     border: 1px solid var(--first-color);
     border-radius:2rem;
