@@ -124,8 +124,12 @@ button:hover{
 }
 .section-white
 {
+    display:block;
+    max-width:600px;
+    margin: 1rem auto;
+    padding:1rem;
     text-align: center;
-    height: 22rem;
+    max-height: 22rem;
 }
 .header-technologies{
     margin: 2rem; 
