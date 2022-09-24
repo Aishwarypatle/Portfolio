@@ -122,6 +122,11 @@ button:hover{
 .download{
     color: var(--first-color);
 }
+.btn-light{
+    background-color: var(--first-color);
+    border: 2px solid var(--second-color);
+    text-decoration: none;
+}
 .section-white
 {
     display:block;
@@ -130,6 +135,15 @@ button:hover{
     padding:1rem;
     text-align: center;
     max-height: 22rem;
+}
+.abuttondark{
+    color:white;
+    text-decoration: none;
+}
+abuttonlight{
+    color:white;
+    text-decoration: none;
+
 }
 .header-technologies{
     margin: 2rem; 
